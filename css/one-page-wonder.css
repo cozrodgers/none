@@ -1,8 +1,12 @@
 body {
   font-family: 'Lato';
+  background-color: black;
 }
 
-h1,
+h1 {
+
+  font-family: 'Catamaran'
+}
 h2,
 h3,
 h4,
@@ -10,7 +14,20 @@ h5,
 h6 {
   font-family: 'Catamaran';
   font-weight: 800 !important;
+ 
+
 }
+
+section {
+
+  color: white;
+}
+
+#title-text  {
+
+   text-shadow: 3px 5px black;
+}
+
 
 .btn-xl {
   text-transform: uppercase;
@@ -39,6 +56,7 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
+  font-family: 'Overpass';
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -72,6 +90,10 @@ header.masthead .masthead-content .masthead-heading {
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+}
+
+header.masthead .masthead-content .masthead-subheading2 {
+  font-size: 1rem;
 }
 
 header.masthead .bg-circle {
@@ -119,7 +141,11 @@ header.masthead .bg-circle-4 {
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
+}
+  header.masthead .masthead-content .masthead-subheading1 {
+    font-size: 2rem;
   }
+  
 }
 
 .bg-primary {
